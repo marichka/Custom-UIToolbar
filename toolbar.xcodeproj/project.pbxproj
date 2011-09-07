@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0CF2A7614160A4600219259 /* grapefruit.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CF2A6E14160A4600219259 /* grapefruit.png */; };
+		E0CF2A7714160A4600219259 /* grapefruit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CF2A6F14160A4600219259 /* grapefruit@2x.png */; };
+		E0CF2A7814160A4600219259 /* kiwi.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CF2A7014160A4600219259 /* kiwi.png */; };
+		E0CF2A7914160A4600219259 /* kiwi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CF2A7114160A4600219259 /* kiwi@2x.png */; };
+		E0CF2A7A14160A4600219259 /* lime.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CF2A7214160A4600219259 /* lime.png */; };
+		E0CF2A7B14160A4600219259 /* lime@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CF2A7314160A4600219259 /* lime@2x.png */; };
+		E0CF2A7C14160A4600219259 /* watermelon.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CF2A7414160A4600219259 /* watermelon.png */; };
+		E0CF2A7D14160A4600219259 /* watermelon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CF2A7514160A4600219259 /* watermelon@2x.png */; };
+		E0CF2A8114160C1300219259 /* toolbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CF2A7F14160C1300219259 /* toolbar_bg.png */; };
+		E0CF2A8214160C1300219259 /* toolbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CF2A8014160C1300219259 /* toolbar_bg@2x.png */; };
+		E0D1E0621415363E00EB72EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D1E0611415363E00EB72EA /* UIKit.framework */; };
+		E0D1E0641415363E00EB72EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D1E0631415363E00EB72EA /* Foundation.framework */; };
+		E0D1E0661415363E00EB72EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D1E0651415363E00EB72EA /* CoreGraphics.framework */; };
+		E0D1E06C1415363E00EB72EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0D1E06A1415363E00EB72EA /* InfoPlist.strings */; };
+		E0D1E06F1415363E00EB72EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D1E06E1415363E00EB72EA /* main.m */; };
+		E0D1E0721415363E00EB72EA /* toolbarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D1E0711415363E00EB72EA /* toolbarAppDelegate.m */; };
+		E0D1E0761415363E00EB72EA /* toolbarAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D1E0751415363E00EB72EA /* toolbarAppDelegate_iPhone.m */; };
+		E0D1E0791415363E00EB72EA /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D1E0771415363E00EB72EA /* MainWindow_iPhone.xib */; };
+		E0D1E07D1415363E00EB72EA /* toolbarAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D1E07C1415363E00EB72EA /* toolbarAppDelegate_iPad.m */; };
+		E0D1E0801415363E00EB72EA /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D1E07E1415363E00EB72EA /* MainWindow_iPad.xib */; };
+		E0D1E0881415366100EB72EA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D1E0871415366100EB72EA /* MainViewController.m */; };
+		E0D1E08B1415369A00EB72EA /* CustomToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D1E08A1415369A00EB72EA /* CustomToolbar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0CF2A6E14160A4600219259 /* grapefruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grapefruit.png; sourceTree = "<group>"; };
+		E0CF2A6F14160A4600219259 /* grapefruit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grapefruit@2x.png"; sourceTree = "<group>"; };
+		E0CF2A7014160A4600219259 /* kiwi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiwi.png; sourceTree = "<group>"; };
+		E0CF2A7114160A4600219259 /* kiwi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kiwi@2x.png"; sourceTree = "<group>"; };
+		E0CF2A7214160A4600219259 /* lime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lime.png; sourceTree = "<group>"; };
+		E0CF2A7314160A4600219259 /* lime@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lime@2x.png"; sourceTree = "<group>"; };
+		E0CF2A7414160A4600219259 /* watermelon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermelon.png; sourceTree = "<group>"; };
+		E0CF2A7514160A4600219259 /* watermelon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "watermelon@2x.png"; sourceTree = "<group>"; };
+		E0CF2A7F14160C1300219259 /* toolbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbar_bg.png; sourceTree = "<group>"; };
+		E0CF2A8014160C1300219259 /* toolbar_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar_bg@2x.png"; sourceTree = "<group>"; };
+		E0D1E05D1415363E00EB72EA /* toolbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toolbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D1E0611415363E00EB72EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0D1E0631415363E00EB72EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0D1E0651415363E00EB72EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0D1E0691415363E00EB72EA /* toolbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "toolbar-Info.plist"; sourceTree = "<group>"; };
+		E0D1E06B1415363E00EB72EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0D1E06D1415363E00EB72EA /* toolbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "toolbar-Prefix.pch"; sourceTree = "<group>"; };
+		E0D1E06E1415363E00EB72EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0D1E0701415363E00EB72EA /* toolbarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = toolbarAppDelegate.h; sourceTree = "<group>"; };
+		E0D1E0711415363E00EB72EA /* toolbarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = toolbarAppDelegate.m; sourceTree = "<group>"; };
+		E0D1E0741415363E00EB72EA /* toolbarAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = toolbarAppDelegate_iPhone.h; path = iPhone/toolbarAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		E0D1E0751415363E00EB72EA /* toolbarAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = toolbarAppDelegate_iPhone.m; path = iPhone/toolbarAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		E0D1E0781415363E00EB72EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		E0D1E07B1415363E00EB72EA /* toolbarAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = toolbarAppDelegate_iPad.h; path = iPad/toolbarAppDelegate_iPad.h; sourceTree = "<group>"; };
+		E0D1E07C1415363E00EB72EA /* toolbarAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = toolbarAppDelegate_iPad.m; path = iPad/toolbarAppDelegate_iPad.m; sourceTree = "<group>"; };
+		E0D1E07F1415363E00EB72EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		E0D1E0861415366100EB72EA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E0D1E0871415366100EB72EA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E0D1E0891415369A00EB72EA /* CustomToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomToolbar.h; sourceTree = "<group>"; };
+		E0D1E08A1415369A00EB72EA /* CustomToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomToolbar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0D1E05A1415363E00EB72EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D1E0621415363E00EB72EA /* UIKit.framework in Frameworks */,
+				E0D1E0641415363E00EB72EA /* Foundation.framework in Frameworks */,
+				E0D1E0661415363E00EB72EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0CF2A6D14160A4600219259 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				E0CF2A7F14160C1300219259 /* toolbar_bg.png */,
+				E0CF2A8014160C1300219259 /* toolbar_bg@2x.png */,
+				E0CF2A6E14160A4600219259 /* grapefruit.png */,
+				E0CF2A6F14160A4600219259 /* grapefruit@2x.png */,
+				E0CF2A7014160A4600219259 /* kiwi.png */,
+				E0CF2A7114160A4600219259 /* kiwi@2x.png */,
+				E0CF2A7214160A4600219259 /* lime.png */,
+				E0CF2A7314160A4600219259 /* lime@2x.png */,
+				E0CF2A7414160A4600219259 /* watermelon.png */,
+				E0CF2A7514160A4600219259 /* watermelon@2x.png */,
+			);
+			name = img;
+			path = toolbar/img;
+			sourceTree = "<group>";
+		};
+		E0D1E0521415363E00EB72EA = {
+			isa = PBXGroup;
+			children = (
+				E0CF2A6D14160A4600219259 /* img */,
+				E0D1E0671415363E00EB72EA /* toolbar */,
+				E0D1E0601415363E00EB72EA /* Frameworks */,
+				E0D1E05E1415363E00EB72EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0D1E05E1415363E00EB72EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0D1E05D1415363E00EB72EA /* toolbar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0D1E0601415363E00EB72EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0D1E0611415363E00EB72EA /* UIKit.framework */,
+				E0D1E0631415363E00EB72EA /* Foundation.framework */,
+				E0D1E0651415363E00EB72EA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0D1E0671415363E00EB72EA /* toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				E0D1E0701415363E00EB72EA /* toolbarAppDelegate.h */,
+				E0D1E0711415363E00EB72EA /* toolbarAppDelegate.m */,
+				E0D1E0731415363E00EB72EA /* iPhone */,
+				E0D1E07A1415363E00EB72EA /* iPad */,
+				E0D1E0681415363E00EB72EA /* Supporting Files */,
+				E0D1E0861415366100EB72EA /* MainViewController.h */,
+				E0D1E0871415366100EB72EA /* MainViewController.m */,
+				E0D1E0891415369A00EB72EA /* CustomToolbar.h */,
+				E0D1E08A1415369A00EB72EA /* CustomToolbar.m */,
+			);
+			path = toolbar;
+			sourceTree = "<group>";
+		};
+		E0D1E0681415363E00EB72EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0D1E0691415363E00EB72EA /* toolbar-Info.plist */,
+				E0D1E06A1415363E00EB72EA /* InfoPlist.strings */,
+				E0D1E06D1415363E00EB72EA /* toolbar-Prefix.pch */,
+				E0D1E06E1415363E00EB72EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0D1E0731415363E00EB72EA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				E0D1E0741415363E00EB72EA /* toolbarAppDelegate_iPhone.h */,
+				E0D1E0751415363E00EB72EA /* toolbarAppDelegate_iPhone.m */,
+				E0D1E0771415363E00EB72EA /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		E0D1E07A1415363E00EB72EA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				E0D1E07B1415363E00EB72EA /* toolbarAppDelegate_iPad.h */,
+				E0D1E07C1415363E00EB72EA /* toolbarAppDelegate_iPad.m */,
+				E0D1E07E1415363E00EB72EA /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0D1E05C1415363E00EB72EA /* toolbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0D1E0831415363E00EB72EA /* Build configuration list for PBXNativeTarget "toolbar" */;
+			buildPhases = (
+				E0D1E0591415363E00EB72EA /* Sources */,
+				E0D1E05A1415363E00EB72EA /* Frameworks */,
+				E0D1E05B1415363E00EB72EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = toolbar;
+			productName = toolbar;
+			productReference = E0D1E05D1415363E00EB72EA /* toolbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0D1E0541415363E00EB72EA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E0D1E0571415363E00EB72EA /* Build configuration list for PBXProject "toolbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0D1E0521415363E00EB72EA;
+			productRefGroup = E0D1E05E1415363E00EB72EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0D1E05C1415363E00EB72EA /* toolbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0D1E05B1415363E00EB72EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D1E06C1415363E00EB72EA /* InfoPlist.strings in Resources */,
+				E0D1E0791415363E00EB72EA /* MainWindow_iPhone.xib in Resources */,
+				E0D1E0801415363E00EB72EA /* MainWindow_iPad.xib in Resources */,
+				E0CF2A7614160A4600219259 /* grapefruit.png in Resources */,
+				E0CF2A7714160A4600219259 /* grapefruit@2x.png in Resources */,
+				E0CF2A7814160A4600219259 /* kiwi.png in Resources */,
+				E0CF2A7914160A4600219259 /* kiwi@2x.png in Resources */,
+				E0CF2A7A14160A4600219259 /* lime.png in Resources */,
+				E0CF2A7B14160A4600219259 /* lime@2x.png in Resources */,
+				E0CF2A7C14160A4600219259 /* watermelon.png in Resources */,
+				E0CF2A7D14160A4600219259 /* watermelon@2x.png in Resources */,
+				E0CF2A8114160C1300219259 /* toolbar_bg.png in Resources */,
+				E0CF2A8214160C1300219259 /* toolbar_bg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0D1E0591415363E00EB72EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D1E06F1415363E00EB72EA /* main.m in Sources */,
+				E0D1E0721415363E00EB72EA /* toolbarAppDelegate.m in Sources */,
+				E0D1E0761415363E00EB72EA /* toolbarAppDelegate_iPhone.m in Sources */,
+				E0D1E07D1415363E00EB72EA /* toolbarAppDelegate_iPad.m in Sources */,
+				E0D1E0881415366100EB72EA /* MainViewController.m in Sources */,
+				E0D1E08B1415369A00EB72EA /* CustomToolbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0D1E06A1415363E00EB72EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0D1E06B1415363E00EB72EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0D1E0771415363E00EB72EA /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0D1E0781415363E00EB72EA /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E0D1E07E1415363E00EB72EA /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0D1E07F1415363E00EB72EA /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0D1E0811415363E00EB72EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0D1E0821415363E00EB72EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0D1E0841415363E00EB72EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "toolbar/toolbar-Prefix.pch";
+				INFOPLIST_FILE = "toolbar/toolbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0D1E0851415363E00EB72EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "toolbar/toolbar-Prefix.pch";
+				INFOPLIST_FILE = "toolbar/toolbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0D1E0571415363E00EB72EA /* Build configuration list for PBXProject "toolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D1E0811415363E00EB72EA /* Debug */,
+				E0D1E0821415363E00EB72EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0D1E0831415363E00EB72EA /* Build configuration list for PBXNativeTarget "toolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D1E0841415363E00EB72EA /* Debug */,
+				E0D1E0851415363E00EB72EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0D1E0541415363E00EB72EA /* Project object */;
+}
