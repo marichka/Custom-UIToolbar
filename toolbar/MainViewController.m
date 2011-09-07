@@ -111,8 +111,4 @@
     return YES;//(interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation) interfaceOrientation duration:(NSTimeInterval)duration 
-{
-    [myToolbar AdjustExistingButtonsToFitWithCount:[myToolbar.ToolbarItems count]];
-}
 @end

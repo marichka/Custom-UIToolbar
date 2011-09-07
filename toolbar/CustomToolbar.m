@@ -92,6 +92,7 @@
     
     UIButton *NewToolbarBtn = [[UIButton alloc]initWithFrame:CGRectMake((int)x_coord, (int)TOP_MARGIN, (int)ButtonSize.width, (int)ButtonSize.height)];
     NewToolbarBtn.showsTouchWhenHighlighted = YES;
+    NewToolbarBtn.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
     float img_width = image.size.width;
     float img_height = image.size.height;
     
