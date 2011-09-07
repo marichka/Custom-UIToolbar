@@ -25,5 +25,3 @@ Usage
     - `(void)ButtonAtIndex:(int)index SetEnabled:(BOOL)enabled;`
         
         enables/disables toolbar button
-
-3. Call `AdjustExistingButtonsToFitWithCount:` function in willAnimateRotationToInterfaceOrientation to adjust buttons placement
